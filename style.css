@@ -1,0 +1,14 @@
+.greeting{
+    margin: 30px;
+    border: solid; 
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    opacity: .45;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
