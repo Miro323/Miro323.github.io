@@ -1,14 +1,39 @@
-.greeting{
-    margin: 30px;
-    border: solid; 
-    border-radius: 15px;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    opacity: .45;
+*{
+    margin: 0;
+    padding: 0;
 }
-
 body{
-    background-color: black;
+    background-color: #88ab33;
     color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.6:
+}
+#dropdown{
+    background-image: url('Logo Eoda:Mirowski 2.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+button{
+    margin: 620px 290px 30px 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: gray 1px solid;
+    padding: 5px 15px;
+}
+button:hover{
+    background: gray;
+    color: white
+}
+#übermich{
+    margin-left: 3px;
 }

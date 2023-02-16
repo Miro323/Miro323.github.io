@@ -1,0 +1,38 @@
+*{
+    background-color: #88ab33
+}
+.head{
+    border: 5px solid gray;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    margin: 3% 25% 25px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+.greetings{
+    border: 5px solid gray;
+    background-color: white;
+    margin: 3% 15% 5% 15%;
+    padding: 20% 25% 20% 25%;
+    border-radius: 15px;
+    
+}
+.übermich, .lebenslauf, .bewerbung{
+    margin-right: 15px;
+}
+button{
+border: solid black 1px;
+background-color: gray;
+font-size: 25px;
+border-top: 20px;
+border-radius: 10px;
+}
+button:hover{
+    background: gray;
+    color: white
+}
+h1{
+    font-family: monospace;
+    background-color: white;
+}
