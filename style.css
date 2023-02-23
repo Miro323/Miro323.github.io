@@ -1,39 +1,172 @@
 *{
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
+}
+#page-container{
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap{
+    padding-bottom: 2.5rem;
+}
+#footer {
+    position:fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+    border: 3px solid black;
+    background-color: black;
+    background-size: cover;
+}
+a{
+    color: white;
 }
 body{
-    background-color: #88ab33;
-    color: white;
-    font-family: monospace;
-    font-size: 20px;
     margin: 0;
-    line-height: 1.6:
-}
-#dropdown{
-    background-image: url('Logo Eoda:Mirowski 2.png');
-    height: 100vh;
+    font-family: monospace;
+    background-image: url(Resume\ Background.jpeg);
     background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: end;
-    align-items: center;
-    padding: 20px 20px 20px 20px;
+    position: fixed;
+}
+.header{
+    background-color: black;
+    text-align: center;
+
+    padding: 20px;
+}
+.nav{
+    background-color: black;
+    color: gainsboro;
+    padding: 10px;
+    width: 15%;
+    height: 35px;
+    font-family: monospace;
+    font-weight: bold 200;
+    border: 2px white solid;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.nav:hover{
+    background-color: white;
+    color: black;
+}
+
+.first {
+    float: left;
+    text-align: center;
+    width: fit-content;
+    padding: 1px 30px 1px 30px;
+    border: 3px solid black;
+    margin: 150px 150px 15px 300px;
+    background-color: gainsboro;
+    opacity: 0.8;
+    border-radius: 10px;
+
+}
+.second{
+    float: left;
+    width: 30%;
+    padding: 15px;
+    border: 3px solid black;
+    margin: 205px 50px 50px 100px;
+    background-color: gainsboro;
+    opacity: 0.8;
+    border-radius: 10px;
+
+}
+.third{
+    float: left;
+    width: fit-content;
+    padding: 5px;
+    border: 3px solid black;
+    margin: 1px 280px 150px 200px;
+    background-color: gainsboro;
+    opacity: 0.5;
+    border-radius: 10px;
+
+}
+.class img{
+    float: left;
+    width: 30%;
+    border: 3px solid black;
+    margin: 150px 100px 5px 250px;
+    width: fit-content;
+    border-radius: 75px;
+    opacity: 0.8;
+
+}
+.info{
+    float:left;
+    width: fit-content;
+    margin-left: 40%;
+    margin-top: 5%;
+    border: 3px solid black;
+    background-color: gainsboro;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.infoBox{
+     float:left;
+     padding: 150px;
+    margin-left: 28%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    background-color: gainsboro;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.kontaktDaten{
+    font-size: x-large;
+}
+i{
+    font-size: 35px;
+    color: black;
+    opacity: 1;
+}
+.skill{
+    text-align: center;
+    text-decoration-line: underline;
+}
+.faq{
+    float:left;
+    text-align: left;
+    padding: 50px;
+    margin: 250px 550px;
+    margin-bottom: 50px;
+    background-color: gainsboro;
+    border: 3px solid black;
+    opacity: 0.8;
+        
+}
+.tittle{
     text-align: center;
 }
-button{
-    margin: 620px 290px 30px 10px;
-    font-size: 25px;
-    border-radius: 10px;
-    text-decoration: none;
-    border: gray 1px solid;
-    padding: 5px 15px;
+.frage2{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-button:hover{
-    background: gray;
-    color: white
+summary{
+    font-size: 17px;
+    font-weight: bolder;
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
 }
-#übermich{
-    margin-left: 3px;
+details {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+}
+details[open] {
+    padding: 0.5em;
+}
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
 }
