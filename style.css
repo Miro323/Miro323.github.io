@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+   
 }
 #page-container{
     position: relative;
@@ -25,13 +26,14 @@ body{
     margin: 0;
     font-family: monospace;
     background-image: url(Resume\ Background.jpeg);
+    background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
+    position: relative;
+    overflow: auto;
 }
 .header{
     background-color: black;
     text-align: center;
-
     padding: 20px;
 }
 .nav{
@@ -112,9 +114,9 @@ body{
 .infoBox{
      float:left;
      padding: 150px;
-    margin-left: 28%;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-right: 30%;
+    margin-left: 30%;    
     border: 3px solid black;
     background-color: gainsboro;
     text-align: center;
@@ -142,7 +144,7 @@ i{
     background-color: gainsboro;
     border: 3px solid black;
     opacity: 0.8;
-        
+
 }
 .tittle{
     text-align: center;
@@ -157,6 +159,7 @@ summary{
     font-weight: bold;
     margin: -0.5em -0.5em 0;
     padding: 0.5em;
+    text-align: left;
 }
 details {
     border: 2px solid black;
@@ -169,4 +172,28 @@ details[open] {
 details[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: 0.5em;
+}
+.anschreiben{
+    float:left;
+    padding: 50px;
+    border: 3px solid black;
+    background-color: gainsboro;
+    text-align: left;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-top: 10%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.lebenslaufListe{
+    float:left;
+    padding: 50px;
+    border: 3px solid black;
+    background-color: gainsboro;
+    text-align: left;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-top: 10%;
+    margin-right: 30%;
+    margin-left: 30%;
 }
